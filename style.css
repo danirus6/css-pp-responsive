@@ -1,0 +1,70 @@
+* {
+  line-height: 1.625;
+  color: white;
+  font-family: Nunito, sans-serif;
+  padding: 0.1rem;
+  margin: 0.1rem;
+}
+
+body {
+  background-color: black;
+}
+header {
+  background-color: skyblue;
+}
+
+main {
+  background-color: red;
+}
+
+article {
+  background-color: green;
+}
+
+aside {
+  background-color: purple;
+}
+
+footer {
+  background-color: gray;
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  article {
+    float: left;
+    width: 50%;
+    height: 580px;
+  }
+  aside {
+    float: right;
+    width: 45%;
+    height: 580px;
+  }
+  footer {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .centerContainer {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  article {
+    float: left;
+    width: 73%;
+    min-height: 350px;
+    
+  }
+
+  aside {
+    float: right;
+    width: 25%;
+    min-height: 350px;
+    
+  }
+
+  footer {
+    display: inline-block;
+    width: 100%;
+    padding: 0.1rem;
+  }
+}
